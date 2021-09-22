@@ -12,7 +12,7 @@ export class UserInfoComponent {
   cash: number = 0;
   userInfo: UserInfo = { fullName: '' };
   error: HttpErrorResponse = undefined;
-  timer: NodeJS.Timeout = undefined;
+  timer: any;
 
   constructor(private userInfoService: UserInfoService) {
   }
@@ -27,7 +27,7 @@ export class UserInfoComponent {
       if (this.timer)
         clearTimeout();
       else
-        this.timer = setTimeout(() => { 
+        this.timer = setInterval(() => { 
           this.error = undefined;
           this.timer = undefined;
          }, 2000);
