@@ -2,7 +2,7 @@
 
 This template is a simple startup project to start with ASP.NET Core and Angular 8.
 
-![Screenshot](Sample.JPG)
+![Screenshot](sample.JPG)
 
 ## Prerequirements
 
