@@ -1,0 +1,37 @@
+<div>
+    <form class="form">
+        <div class="form-child">
+            Full Name
+            <input type="text"
+                   [(ngModel)]="userInfo.fullName"
+                   name="fullName">
+        </div>
+
+        <div class="form-child">
+            Cash
+            <input type="number"
+                   [(ngModel)]="cash"
+                   name="cash">
+        </div>
+
+        <div>
+            <button type="submit"
+                    class="submit-button"
+                    (click)="getUserCashInWords()">Submit</button>
+        </div>
+
+        <div class="form-child"
+             *ngIf="userInfo.cashInWords">
+            Cash in Words
+            <input type="text"
+                   [(ngModel)]="userInfo.cashInWords"
+                   name="cashInWords"
+                   readonly>
+        </div>
+    </form>
+
+    <div class="error"
+         *ngIf="error">
+        {{ error.error }}
+    </div>
+</div>

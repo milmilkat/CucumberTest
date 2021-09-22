@@ -1,0 +1,20 @@
+.form {
+  display: flex;
+  flex-direction: column;
+
+  .form-child {
+    display: flex;
+    flex-direction: column;
+    margin-top: 12px;
+  }
+
+  .submit-button {
+    background-color: chartreuse;
+    margin-top: 12px;
+  }
+}
+
+.error {
+  margin-top: 12px;
+  color: red;
+}
