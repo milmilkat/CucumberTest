@@ -2,7 +2,7 @@
 {
     public class UserInfo
     {
-        public string FullName { get; set; }
-        public string? CashInWords { get; set; }
+        public string? FullName { get; set; }
+        public string CashInWords { get; set; }
     }
 }

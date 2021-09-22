@@ -1,4 +1,4 @@
 export interface UserInfo {
-    fullName: string;
+    fullName?: string;
     cashInWords?: string;
 }

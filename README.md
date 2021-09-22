@@ -1,8 +1,8 @@
+![Screenshot](sample.JPG)
+
 # ASP.NET Core & Angular
 
 This template is a simple startup project to start with ASP.NET Core and Angular 8.
-
-![Screenshot](sample.JPG)
 
 ## Prerequirements
 
@@ -16,6 +16,7 @@ This template is a simple startup project to start with ASP.NET Core and Angular
 * Open solution in Visual Studio 2019
 * Set .Web project as Startup Project and build the project.
 * Run the application.
+* The first run will install Node modules and it will take time.
 
 ## Areas To Improve
 
